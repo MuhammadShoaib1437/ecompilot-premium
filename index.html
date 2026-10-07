@@ -7,7 +7,7 @@
 <meta name="description" content="EcomPilot — Where stores take flight. E-commerce growth partner: services, academy, platforms, insights.">
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -15,12 +15,14 @@
   <div class="orb orb-1"></div>
   <div class="orb orb-2"></div>
   <div class="orb orb-3"></div>
-  <div class="orb orb-4"></div>
 </div>
 
 <!-- ============ HEADER ============ -->
 <header class="nav" id="nav">
-  <a href="#home" class="logo"><img src="logo.png" alt="EcomPilot — Where stores take flight" class="logo-img"></a>
+  <a href="#home" class="logo">
+    <span class="logo-badge"><svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/></svg></span>
+    <span class="logo-text">EcomPilot<sup>PK</sup><small>WHERE STORES TAKE FLIGHT</small></span>
+  </a>
   <nav class="nav-links" id="navLinks">
     <a href="#academy">Academy</a>
     <a href="#services">Services</a>
@@ -36,8 +38,8 @@
 <section class="hero" id="home">
   <div class="hero-inner">
     <div class="hero-text">
-      <p class="eyebrow"><span class="dot"></span>YOUR E-COMMERCE GROWTH PARTNER</p>
-      <h1 class="hero-title">Build a stronger store. <span class="hl">Unlock your next chapter.</span></h1>
+      <p class="eyebrow"><span class="rule"></span>YOUR E-COMMERCE GROWTH PARTNER</p>
+      <h1 class="hero-title">Build a stronger store.<br><span class="grad">Unlock your next chapter.</span></h1>
       <p class="hero-sub">Bring your research, listings, operations and advertising together. Get tailored support for your business—or build your skills with Ecompilot Academy.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn btn-grad">Get free consultation</a>
@@ -50,7 +52,6 @@
       </div>
     </div>
     <div class="hero-visual">
-      <div class="blob" aria-hidden="true"></div>
       <div class="hero-card-main" data-tilt>
         <div class="hero-card-num">01</div>
         <h3>Smarter store operations</h3>
@@ -61,11 +62,10 @@
         <h3>Skills for your next step</h3>
         <p>Ecompilot Academy</p>
       </div>
-      <div class="float-shape fs-1" aria-hidden="true">🚀</div>
-      <div class="float-shape fs-2" aria-hidden="true">🛍️</div>
-      <div class="float-shape fs-3" aria-hidden="true">📦</div>
       <div class="hero-graphic" aria-hidden="true">
         <div class="hg-ring"></div>
+        <div class="hg-bag hg-bag-1">🛍</div>
+        <div class="hg-bag hg-bag-2">🛍</div>
         <div class="hg-core">◈</div>
       </div>
     </div>
@@ -88,7 +88,7 @@
 
 <!-- ============ SERVICES ============ -->
 <section class="services" id="services">
-  <p class="eyebrow center"><span class="dot"></span>FOR YOUR BUSINESS</p>
+  <p class="eyebrow center"><span class="rule"></span>FOR YOUR BUSINESS<span class="rule"></span></p>
   <h2 class="section-title">Expert support. <span class="grad">Every stage of your store.</span></h2>
   <p class="section-sub">Choose the support you need. Get a quote tailored to your platform, project and scope.</p>
   <div class="carousel-head">
@@ -100,35 +100,35 @@
   </div>
   <div class="carousel" id="svcCarousel">
     <div class="carousel-track" id="svcTrack">
-      <article class="svc-card c1" data-tilt>
+      <article class="svc-card" data-tilt>
         <div class="svc-num">01 /</div>
         <h3>Store Management</h3>
         <p>Keep everyday operations connected, from inventory and orders to marketplace health.</p>
         <ul><li>Daily store operations</li><li>Inventory and order coordination</li><li>Marketplace health monitoring</li></ul>
         <button class="btn btn-outline btn-sm quote-btn" data-interest="Store Management">Get a quote</button>
       </article>
-      <article class="svc-card c2" data-tilt>
+      <article class="svc-card" data-tilt>
         <div class="svc-num">02 /</div>
         <h3>Product Research</h3>
         <p>Evaluate opportunities and competitors with research shaped around your products and goals.</p>
         <ul><li>Product opportunity research</li><li>Competitor analysis</li><li>Sourcing and cost considerations</li></ul>
         <button class="btn btn-outline btn-sm quote-btn" data-interest="Product Research">Get a quote</button>
       </article>
-      <article class="svc-card c3" data-tilt>
+      <article class="svc-card" data-tilt>
         <div class="svc-num">03 /</div>
         <h3>Listing Optimization</h3>
         <p>Make product pages clearer, more discoverable and more useful to the people browsing your store.</p>
         <ul><li>Titles and product descriptions</li><li>Marketplace search optimisation</li><li>Product content review</li></ul>
         <button class="btn btn-outline btn-sm quote-btn" data-interest="Listing Optimization">Get a quote</button>
       </article>
-      <article class="svc-card c4" data-tilt>
+      <article class="svc-card" data-tilt>
         <div class="svc-num">04 /</div>
         <h3>Advertising &amp; PPC Management</h3>
         <p>Bring structure to advertising with focused campaign management and practical performance review.</p>
         <ul><li>Campaign structure</li><li>Campaign monitoring</li><li>Ongoing optimisation</li></ul>
         <button class="btn btn-outline btn-sm quote-btn" data-interest="Advertising & PPC Management">Get a quote</button>
       </article>
-      <article class="svc-card c5" data-tilt>
+      <article class="svc-card" data-tilt>
         <div class="svc-num">05 /</div>
         <h3>Account Management</h3>
         <p>Create a dependable operating rhythm with clear priorities and consistent account support.</p>
@@ -142,7 +142,7 @@
 
 <!-- ============ ACADEMY ============ -->
 <section class="academy" id="academy">
-  <p class="eyebrow center"><span class="dot"></span>THE ACADEMY</p>
+  <p class="eyebrow center"><span class="rule"></span>THE ACADEMY<span class="rule"></span></p>
   <h2 class="section-title">Learn the marketplace. <span class="grad">Build the skill set.</span></h2>
   <p class="section-sub">Explore focused training programs across 10 marketplaces. Understand the selling process, build practical foundations and choose the learning path that fits your goals.</p>
   <div class="filters" id="courseFilters">
@@ -152,7 +152,7 @@
     <button class="filter-btn" data-filter="resale">Resale &amp; local selling</button>
   </div>
   <div class="courses-grid" id="coursesGrid">
-    <article class="course-card c1" data-cat="global" data-tilt>
+    <article class="course-card" data-cat="global" data-tilt>
       <div class="course-num">PROGRAM 01</div>
       <h3>eBay Seller Training</h3>
       <p>Build a structured understanding of eBay selling, from product research to listing quality and day-to-day store operations.</p>
@@ -160,7 +160,7 @@
       <ul class="explore-list"><li>Seller setup essentials</li><li>Product research and sourcing</li><li>Listing structure and search visibility</li><li>Orders, service and store performance</li></ul>
       <button class="view-program" data-course="eBay course" data-title="eBay Seller Training">View program ＋</button>
     </article>
-    <article class="course-card c2" data-cat="global" data-tilt>
+    <article class="course-card" data-cat="global" data-tilt>
       <div class="course-num">PROGRAM 02</div>
       <h3>Etsy Shop Training</h3>
       <p>Explore how to present creative products, organise an Etsy shop and develop a consistent selling workflow.</p>
@@ -168,7 +168,7 @@
       <ul class="explore-list"><li>Shop planning and product fit</li><li>Product photography and presentation</li><li>Titles, tags and listing structure</li><li>Pricing, orders and customer communication</li></ul>
       <button class="view-program" data-course="Etsy course" data-title="Etsy Shop Training">View program ＋</button>
     </article>
-    <article class="course-card c3" data-cat="global" data-tilt>
+    <article class="course-card" data-cat="global" data-tilt>
       <div class="course-num">PROGRAM 03</div>
       <h3>Amazon Seller Training</h3>
       <p>Understand the foundations of the Amazon seller journey and how catalogue, sourcing and operations fit together.</p>
@@ -176,7 +176,7 @@
       <ul class="explore-list"><li>Seller journey and business models</li><li>Product and supplier research</li><li>Catalogue and listing fundamentals</li><li>Inventory, fulfilment and cost planning</li></ul>
       <button class="view-program" data-course="Amazon course" data-title="Amazon Seller Training">View program ＋</button>
     </article>
-    <article class="course-card c4" data-cat="social" data-tilt>
+    <article class="course-card" data-cat="social" data-tilt>
       <div class="course-num">PROGRAM 04</div>
       <h3>TikTok Shop Training</h3>
       <p>Connect shop operations with product content and develop an organised approach to social commerce.</p>
@@ -184,7 +184,7 @@
       <ul class="explore-list"><li>Shop setup essentials</li><li>Product research and selection</li><li>Listings and content planning</li><li>Orders, fulfilment and daily routines</li></ul>
       <button class="view-program" data-course="TikTok Shop course" data-title="TikTok Shop Training">View program ＋</button>
     </article>
-    <article class="course-card c5" data-cat="social" data-tilt>
+    <article class="course-card" data-cat="social" data-tilt>
       <div class="course-num">PROGRAM 05</div>
       <h3>Facebook Marketplace Training</h3>
       <p>Learn how to present products clearly and manage the enquiries and routines involved in Marketplace selling.</p>
@@ -192,7 +192,7 @@
       <ul class="explore-list"><li>Marketplace selling foundations</li><li>Product selection and pricing</li><li>Photos and effective listings</li><li>Buyer enquiries and selling routines</li></ul>
       <button class="view-program" data-course="Facebook Marketplace course" data-title="Facebook Marketplace Training">View program ＋</button>
     </article>
-    <article class="course-card c1" data-cat="global" data-tilt>
+    <article class="course-card" data-cat="global" data-tilt>
       <div class="course-num">PROGRAM 06</div>
       <h3>Walmart Marketplace Training</h3>
       <p>Explore marketplace operations, product catalogue preparation and the foundations of a Walmart selling workflow.</p>
@@ -200,7 +200,7 @@
       <ul class="explore-list"><li>Marketplace and seller foundations</li><li>Product research and catalogue planning</li><li>Listing quality and product information</li><li>Inventory and order management</li></ul>
       <button class="view-program" data-course="Walmart course" data-title="Walmart Marketplace Training">View program ＋</button>
     </article>
-    <article class="course-card c2" data-cat="resale" data-tilt>
+    <article class="course-card" data-cat="resale" data-tilt>
       <div class="course-num">PROGRAM 07</div>
       <h3>Mercari Reselling Training</h3>
       <p>Develop a repeatable approach to resale, from evaluating product condition to preparing listings and managing orders.</p>
@@ -208,7 +208,7 @@
       <ul class="explore-list"><li>Resale sourcing and product evaluation</li><li>Condition checks and pricing</li><li>Photography and listing preparation</li><li>Order handling and buyer communication</li></ul>
       <button class="view-program" data-course="Mercari course" data-title="Mercari Reselling Training">View program ＋</button>
     </article>
-    <article class="course-card c3" data-cat="resale" data-tilt>
+    <article class="course-card" data-cat="resale" data-tilt>
       <div class="course-num">PROGRAM 08</div>
       <h3>Poshmark Reselling Training</h3>
       <p>Build the foundations of a well-presented resale catalogue with clear product information and organised selling routines.</p>
@@ -216,7 +216,7 @@
       <ul class="explore-list"><li>Resale planning and product selection</li><li>Closet organisation and presentation</li><li>Condition, sizing and listing details</li><li>Pricing and customer communication</li></ul>
       <button class="view-program" data-course="Poshmark course" data-title="Poshmark Reselling Training">View program ＋</button>
     </article>
-    <article class="course-card c4" data-cat="resale" data-tilt>
+    <article class="course-card" data-cat="resale" data-tilt>
       <div class="course-num">PROGRAM 09</div>
       <h3>OfferUp Local Selling Training</h3>
       <p>Understand local selling workflows and learn how to create useful listings and manage buyer enquiries.</p>
@@ -224,7 +224,7 @@
       <ul class="explore-list"><li>Local selling foundations</li><li>Product selection and pricing</li><li>Clear photography and descriptions</li><li>Buyer communication and fulfilment planning</li></ul>
       <button class="view-program" data-course="OfferUp course" data-title="OfferUp Local Selling Training">View program ＋</button>
     </article>
-    <article class="course-card c5" data-cat="global" data-tilt>
+    <article class="course-card" data-cat="global" data-tilt>
       <div class="course-num">PROGRAM 10</div>
       <h3>Temu Seller Foundations</h3>
       <p>Explore the seller landscape and develop a foundation in product preparation, catalogue quality and operating routines.</p>
@@ -237,7 +237,7 @@
 
 <!-- ============ COMMERCE ECOSYSTEM ============ -->
 <section class="ecosystem">
-  <p class="eyebrow center"><span class="dot"></span>A CONNECTED COMMERCE WORLD</p>
+  <p class="eyebrow center"><span class="rule"></span>A CONNECTED COMMERCE WORLD<span class="rule"></span></p>
   <h2 class="section-title">Different platforms. <span class="grad">One clear ambition.</span></h2>
   <p class="section-sub">Explore the marketplaces. Choose a learning path. Build a selling workflow that makes sense for you.</p>
   <div class="eco-box" data-tilt>
@@ -264,47 +264,47 @@
 
 <!-- ============ PLATFORM EXPERTISE ============ -->
 <section class="platforms" id="platforms">
-  <p class="eyebrow"><span class="dot"></span>PLATFORM EXPERTISE</p>
+  <p class="eyebrow"><span class="rule"></span>PLATFORM EXPERTISE</p>
   <h2 class="section-title">Built for the <span class="grad">platforms you sell on.</span></h2>
   <p class="section-sub">Support shaped around the marketplace you sell on. Tell us about your store to discuss the right scope.</p>
   <div class="platforms-grid" id="platformsGrid">
-    <article class="platform-card c1" data-name="Amazon" data-tilt>
+    <article class="platform-card" data-name="Amazon" data-tilt>
       <div class="plat-num">01 / MARKETPLACE</div>
       <h3>Amazon</h3>
       <p>Seller operations, catalogue support and campaign management.</p>
       <button class="discuss-btn quote-btn" data-interest="Amazon store support">Discuss store support ＋</button>
     </article>
-    <article class="platform-card c2" data-name="Walmart" data-tilt>
+    <article class="platform-card" data-name="Walmart" data-tilt>
       <div class="plat-num">02 / MARKETPLACE</div>
       <h3>Walmart</h3>
       <p>Catalogue coordination and marketplace operations.</p>
       <button class="discuss-btn quote-btn" data-interest="Walmart store support">Discuss store support ＋</button>
     </article>
-    <article class="platform-card c3" data-name="eBay" data-tilt>
+    <article class="platform-card" data-name="eBay" data-tilt>
       <div class="plat-num">03 / MARKETPLACE</div>
       <h3>eBay</h3>
       <p>Listing quality, account coordination and daily selling support.</p>
       <button class="discuss-btn quote-btn" data-interest="eBay store support">Discuss store support ＋</button>
     </article>
-    <article class="platform-card c4" data-name="Etsy" data-tilt>
+    <article class="platform-card" data-name="Etsy" data-tilt>
       <div class="plat-num">04 / MARKETPLACE</div>
       <h3>Etsy</h3>
       <p>Shop presentation, product listings and operating routines.</p>
       <button class="discuss-btn quote-btn" data-interest="Etsy store support">Discuss store support ＋</button>
     </article>
-    <article class="platform-card c5" data-name="Shopify" data-tilt>
+    <article class="platform-card" data-name="Shopify" data-tilt>
       <div class="plat-num">05 / MARKETPLACE</div>
       <h3>Shopify</h3>
       <p>Storefront organisation and e-commerce operations.</p>
       <button class="discuss-btn quote-btn" data-interest="Shopify store support">Discuss store support ＋</button>
     </article>
-    <article class="platform-card c1" data-name="TikTok Shop" data-tilt>
+    <article class="platform-card" data-name="TikTok Shop" data-tilt>
       <div class="plat-num">06 / MARKETPLACE</div>
       <h3>TikTok Shop</h3>
       <p>Product listings, social commerce content and shop operations.</p>
       <button class="discuss-btn quote-btn" data-interest="TikTok Shop store support">Discuss store support ＋</button>
     </article>
-    <article class="platform-card c2" data-name="Mercari" data-tilt>
+    <article class="platform-card" data-name="Mercari" data-tilt>
       <div class="plat-num">07 / MARKETPLACE</div>
       <h3>Mercari</h3>
       <p>Product presentation, pricing review and selling support.</p>
@@ -315,7 +315,7 @@
 
 <!-- ============ HOW WE WORK ============ -->
 <section class="work">
-  <p class="eyebrow"><span class="dot"></span>HOW WE WORK</p>
+  <p class="eyebrow"><span class="rule"></span>HOW WE WORK</p>
   <h2 class="section-title">A clear plan. <span class="grad">Visible progress.</span></h2>
   <p class="section-sub">From the first conversation to ongoing execution, the work stays practical, transparent and suited to your store.</p>
   <div class="steps">
@@ -331,7 +331,7 @@
 
 <!-- ============ JOURNAL ============ -->
 <section class="journal" id="insights">
-  <p class="eyebrow"><span class="dot"></span>THE ECOMPILOT JOURNAL</p>
+  <p class="eyebrow"><span class="rule"></span>THE ECOMPILOT JOURNAL</p>
   <h2 class="section-title">Ideas worth <span class="grad">putting into practice.</span></h2>
   <p class="section-sub">Ideas and checklists to help you approach online selling with more clarity.</p>
   <div class="articles-grid">
@@ -361,7 +361,7 @@
 
 <!-- ============ STUDENT VOICES ============ -->
 <section class="voices" id="reviews">
-  <p class="eyebrow center"><span class="dot"></span>STUDENT VOICES</p>
+  <p class="eyebrow center"><span class="rule"></span>STUDENT VOICES<span class="rule"></span></p>
   <h2 class="section-title">Your experience. <span class="grad">The next learner's perspective.</span></h2>
   <p class="section-sub">A useful review describes what you studied, what became clearer and how you applied your learning.</p>
   <div class="voices-box" data-tilt>
@@ -373,7 +373,7 @@
 
 <!-- ============ FAQ ============ -->
 <section class="faq">
-  <p class="eyebrow center"><span class="dot"></span>GOOD TO KNOW</p>
+  <p class="eyebrow center"><span class="rule"></span>GOOD TO KNOW<span class="rule"></span></p>
   <h2 class="section-title">A little clarity <span class="grad">before you begin.</span></h2>
   <div class="faq-list">
     <div class="faq-item">
@@ -397,7 +397,7 @@
 
 <!-- ============ CONTACT ============ -->
 <section class="contact" id="contact">
-  <p class="eyebrow center"><span class="dot"></span>LET'S BUILD YOUR NEXT CHAPTER</p>
+  <p class="eyebrow center"><span class="rule"></span>LET'S BUILD YOUR NEXT CHAPTER<span class="rule"></span></p>
   <h2 class="section-title">Your next move starts <span class="grad">with a conversation.</span></h2>
   <p class="section-sub">Tell us what you have in mind. Start a conversation about a course or a tailored service quote.</p>
   <div class="contact-grid">
@@ -428,7 +428,10 @@
 <footer class="footer">
   <div class="footer-giant">ECOMPILOT</div>
   <div class="footer-main">
-    <span class="footer-logo"><img src="logo.png" alt="EcomPilot — Where stores take flight"></span>
+    <a href="#home" class="logo">
+      <span class="logo-badge"><svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/></svg></span>
+      <span class="logo-text">EcomPilot<sup>PK</sup><small>WHERE STORES TAKE FLIGHT</small></span>
+    </a>
     <p class="footer-tag">Learn commerce. Build your next chapter.</p>
     <nav class="footer-links">
       <a href="#academy">Academy</a>
